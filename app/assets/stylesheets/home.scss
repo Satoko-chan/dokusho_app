@@ -1,3 +1,59 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container{
+  padding: 0 5%;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.top-wrapper{
+  width:auto;
+  padding:150px 0 150px 0;
+}
+
+.start-btn{
+  font-size:18px;
+  margin:10px;
+  color:white;
+  padding:15px 50px;
+  display:inline-block;
+  background-color:#EF985D ;
+  opacity:0.9;
+  border-radius:8px;
+  box-shadow: 0px 5px darken(#EF985D,20%) ;
+  &:hover{
+    opacity:1;
+  }
+  &:active{
+    position: relative;
+    top:5px;
+    box-shadow:none;
+  }
+}
+
+.howto-wrapper{
+  background-color: rgba(#FFE9D9,80%);
+  padding:30px 0 30px 0;
+  .cursor_img {
+    width: 10%;
+    float: left;
+    img {
+      width: 60px;
+      height: 50px;
+      margin-top: 200px;
+    }
+  }
+  .howto{
+    float:left;
+    width:45%;
+  }
+}
+
+.clear {
+  clear: left;
+}
+
+.bottom-wrapper{
+  padding:50px 0 50px 0;
+}
