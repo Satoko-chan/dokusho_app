@@ -86,7 +86,16 @@
 }
 
 .box{
-  width:600px; height:600px;
-  margin:5px; padding:10px; border:1px solid black;
+  width:600px; height:500px;
+  margin:5px; padding:25px; border:1px solid black;
   margin:0 auto;
+  text-align: left;
+}
+
+.buttom-btn{
+  padding: 0 15%;
+  .btn{
+    float: left;
+    width:33%;
+  }
 }

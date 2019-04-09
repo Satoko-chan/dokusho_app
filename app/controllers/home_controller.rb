@@ -4,6 +4,13 @@ class HomeController < ApplicationController
   end
 
   def create
+    @title = params[:title]
+    @reason = params[:reason]
+    @story = params[:story]
+    @moving = params[:moving]
+    @why = params[:why]
+    @learn = params[:learn]
+    @action = params[:action]
   end
 
   def text
@@ -14,6 +21,9 @@ class HomeController < ApplicationController
     @why = params[:why]
     @learn = params[:learn]
     @action = params[:action]
+
   end
+
+
 
 end
