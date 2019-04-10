@@ -21,6 +21,7 @@ class HomeController < ApplicationController
     @why = params[:why]
     @learn = params[:learn]
     @action = params[:action]
+    
 
   end
 
