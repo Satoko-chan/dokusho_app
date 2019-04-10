@@ -43,11 +43,13 @@
   .cursor_img {
     width: 10%;
     float: left;
-    img {
-      width: 60px;
-      height: 50px;
-      margin-top: 200px;
+    height: 50px;
+    margin-top: 200px;
+    opacity: 0.8;
+    .fa-arrow-right{
+      font-size: 6em
     }
+
   }
   .howto{
     float:left;
@@ -61,6 +63,10 @@
 
 .bottom-wrapper{
   padding:50px 0 50px 0;
+}
+
+.fa-home{
+  font-size: 2em
 }
 
 .q-and-a{
