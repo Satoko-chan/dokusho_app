@@ -3,9 +3,6 @@ class HomeController < ApplicationController
   def top
   end
 
-<<<<<<< HEAD
-
-=======
   def create
   end
 
@@ -19,5 +16,4 @@ class HomeController < ApplicationController
     @action = params[:action]
   end
 
->>>>>>> 1390d63bb8e69c747213ef396a3027cc0d320395
 end
