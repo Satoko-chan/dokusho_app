@@ -1,44 +1,44 @@
 <div class="text-contents">
-  <div class="container">
-    <div class="text_box">
-      <div class="box" id="input-text">
+    <div class="container">
+      <div class="text_box">
+        <div class="box" id="input-text">
 
-        私は<%= @title %>を読みました。<br>
-        この本を選んだ理由は、<%= @reason %>です。<br>
-        この本は<%= @story %>です。<br>
-        私は<%= @moving %>で心動かされました。<br>
-        なぜなら、<%= @why %>です。<br>
-        そのことから<%= @learn %>を学びました。<br>
-        この読書をきっかけに今後は<%= @action%>です。<br>
+          私は<%= @title %>を読みました。<br>
+          この本を選んだ理由は、<%= @reason %>です。<br>
+          この本は<%= @story %>です。<br>
+          私は<%= @moving %>で心動かされました。<br>
+          なぜなら、<%= @why %>です。<br>
+          そのことから<%= @learn %>を学びました。<br>
+          この読書をきっかけに今後は<%= @toDo %>です。<br>
 
+        </div>
       </div>
-    </div>
-    <div class="buttom-btn">
-      <div class="back btn">
-        <a href="javascript:void(0);" onclick="window.history.back();">
-          <div class="start-btn">
-            <i class="fas fa-undo-alt"></i>
-            <span>戻る</span>
+      <div class="buttom-btn">
+        <a href="/<%=@title%>/<%=@reason%>/<%=@story%>/<%=@moving%>/<%=@why%>/<%=@learn%>/<%=@toDo%>/modify">
+          <div class="back btn">
+            <div class="start-btn">
+              <i class="fas fa-undo-alt"></i>
+              <span>戻る</span>
+            </div>
           </div>
         </a>
+        <div class="download btn">
+          <a href="#">
+            <div class="start-btn">
+              <i class="fas fa-cloud-download-alt"></i>
+              <span>ダウンロード</span>
+            </div>
+          </a>
+        </div>
+        <div class="twitter btn">
+          <a href="#">
+            <div class="start-btn">
+              <i class="fab fa-twitter"></i>
+              <span>Twitter</span>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="download btn">
-        <a href=#>
-          <div class="start-btn">
-            <i class="fas fa-cloud-download-alt"></i>
-            <span>ダウンロード</span>
-          </div>
-        </a>
-      </div>
-      <div class="twitter btn">
-        <a href=#>
-          <div class="start-btn">
-            <i class="fab fa-twitter"></i>
-            <span>Twitter</span>
-          </div>
-        </a>
-      </div>
-    </div>
 
   </div>
 
